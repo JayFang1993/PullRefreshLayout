@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info.fangjie.pulltorefresh.PullRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:PullRefreshLayout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/pullrefreshlayout"
+    android:layout_height="match_parent"
+    android:background="#353739"
+    PullRefreshLayout:enableload="true"
+    >
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_centerVertical="true"
+      android:text="下拉刷新"
+      android:background="#353739"
+      android:id="@+id/tv_refresh_header"
+      android:textColor="#ffffff"
+      android:layout_height="60dp"
+      android:gravity="center"
+      />
+  <android.support.v7.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#ffffff"
+      android:id="@+id/recyclerview"
+      />
+  <TextView
+      android:background="#353739"
+      android:layout_width="match_parent"
+      android:layout_centerVertical="true"
+      android:text="上拉加载"
+      android:textColor="#ffffff"
+      android:id="@+id/tv_refresh_footer"
+      android:layout_height="60dp"
+      android:gravity="center"
+      />
+
+</info.fangjie.pulltorefresh.PullRefreshLayout>

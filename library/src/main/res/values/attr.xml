@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="PullRefreshLayout">
+    <attr name="enablerefresh" format="boolean" />
+    <attr name="enableload" format="boolean" />
+    <attr name="topoffset" format="integer" />
+    <attr name="bottomoffset" format="integer" />
+  </declare-styleable>
+</resources>

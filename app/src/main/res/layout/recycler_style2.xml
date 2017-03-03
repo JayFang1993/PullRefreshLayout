@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info.fangjie.pulltorefresh.PullRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/pullrefreshlayout"
+    android:layout_height="match_parent"
+    android:background="#353739"
+    >
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      >
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="下拉刷新"
+        android:id="@+id/tv_refresh_header_title"
+        android:layout_marginTop="8dp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="上次刷新时间 09:32"
+        android:textColor="#eee"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tv_refresh_header_content"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/iv_refresh_header_arrow"
+        android:layout_toLeftOf="@id/tv_refresh_header_content"
+        android:layout_marginRight="16dp"
+        android:rotation="180"
+        android:src="@drawable/arrow_white"
+        />
+    <ProgressBar
+        android:layout_width="28dp"
+        android:id="@+id/pb_refresh_header"
+        android:layout_toLeftOf="@id/tv_refresh_header_content"
+        android:layout_height="28dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerVertical="true"
+        />
+  </RelativeLayout>
+
+  <android.support.v7.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/recyclerview"
+      android:background="#fff"
+      />
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      >
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/iv_load_footer"
+        android:src="@drawable/arrow_white"
+        android:layout_centerInParent="true"
+        android:layout_height="24dp"
+        />
+    <ProgressBar
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/pb_load_footer"
+        android:layout_marginRight="16dp"
+        android:layout_centerVertical="true"
+        />
+  </RelativeLayout>
+
+</info.fangjie.pulltorefresh.PullRefreshLayout>
