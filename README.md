@@ -1,7 +1,7 @@
 # PullRefreshLayout
 ![](images/icon.png)
 
-PullRefreshLayout for Android,like SwipeRefreshLayout,which support pull-down to refresh and pull-up to load more data，and is very streamlined.
+PullRefreshLayout for Android,like SwipeRefreshLayout,which support pull-down to refresh and pull-up to load more data, and is very streamlined.
 
 In principle, it supports a variety of contentview, such as: RecyclerView, ListView, Webview, Scrollview and so on. But I have only tested RecyclerView, if you are using other contentview encounter problems, please contact me or sumbit issue.
 
@@ -106,7 +106,7 @@ similar to `Pull-Down`
 * E-Mail:[JayFang1993@gmail.com](mailto:jayfang1993@gmail.com)
 * Blog:[https://fangjie.info](https://fangjie.info)
 
-![](https://ww2.sinaimg.cn/large/8c7a19d3jw1f9lyza342gj2076076wex.jpg)
+<img src="https://ww2.sinaimg.cn/large/8c7a19d3jw1f9lyza342gj2076076wex.jpg"/>
 
 ## Licence
 
