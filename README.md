@@ -1,9 +1,29 @@
 # PullRefreshLayout
 ![](images/icon.png)
 
-PullRefreshLayout for Android,like SwipeRefreshLayout,which support pull-down to refresh and pull-up to load more data.
+PullRefreshLayout for Android,like SwipeRefreshLayout,which support pull-down to refresh and pull-up to load more data，and is very streamlined.
+In principle, it supports a variety of contentview, such as: RecyclerView, ListView, Webview, Scrollview and so on. But I have only tested RecyclerView, if you are using other contentview encounter problems, please contact me or sumbit issue.
+Use this library,you can make any pull-down and pull-up animation,but i only finished two style. If you have another requirements,you can contact me.
+
 ## Preview
 ![](images/art.gif)
+
+## Gradle
+Step 1. Add the JitPack repository to your build file
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+Step 2. Add the dependency
+```
+dependencies {
+        compile 'com.github.JayFang1993:PullRefreshLayout:v1.0-beta1'
+}
+```
 
 ## Usage
 
@@ -77,6 +97,14 @@ similar to `Pull-Down`
 
 ## Thanks
 * [liaohuqiu/android-Ultra-Pull-To-Refresh](https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh)
+
+## Contact
+* Twitter: [@JayFang1993](https://twitter.com/jayfang1993)
+* Weibo:[@方杰_Jay](http://weibo.com/ncuitstudent/)
+* E-Mail:[JayFang1993@gmail.com](mailto:jayfang1993@gmail.com)
+* Blog:[https://fangjie.info](https://fangjie.info)
+
+![](https://ww2.sinaimg.cn/large/8c7a19d3jw1f9lyza342gj2076076wex.jpg)
 
 ## Licence
 

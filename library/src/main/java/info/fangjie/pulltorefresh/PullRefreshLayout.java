@@ -3,7 +3,6 @@ package info.fangjie.pulltorefresh;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AbsListView;
@@ -126,8 +125,6 @@ public class PullRefreshLayout extends RelativeLayout {
 
     final int childHeightMeasureSpec = getChildMeasureSpec(parentHeightMeasureSpec,
         getPaddingTop() + getPaddingBottom() + lp.topMargin, lp.height);
-
-    if (DEBUG) Log.d(TAG, "width:" + childWidthMeasureSpec + "-height:" + childHeightMeasureSpec);
 
     child.measure(childWidthMeasureSpec, childHeightMeasureSpec);
   }
