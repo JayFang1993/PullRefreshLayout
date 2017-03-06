@@ -8,7 +8,7 @@ In principle, it supports a variety of contentview, such as: RecyclerView, ListV
 Use this library,you can make any pull-down and pull-up animation,but i only finished two style. If you have another requirements,you can contact me.
 
 ## Preview
-![](images/art.gif)
+<img src="images/art.gif" width="350px"/>
 
 ## Gradle
 Step 1. Add the JitPack repository to your build file
